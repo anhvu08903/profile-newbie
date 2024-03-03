@@ -1,0 +1,103 @@
+
+.wrapper{
+    width: 100%;
+    min-height: 800px;
+    background-color: #333;
+    justify-content: center;
+    display: block;
+}
+.container{
+    width:100%;
+    display: flex;
+}
+.left{
+    width: 30%;
+    min-height: 850px;
+    background-color: white;
+}
+.right{
+    width: 70%;
+    background-color: azure;
+    height: 850px;
+}
+.background-image{
+    width:100%;
+    height: 220px;
+    background-image: url('https://dean2020.edu.vn/wp-content/uploads/2019/06/hinh-6.png?fbclid=IwAR0lglhr6oJ5eQSRpGiweKiOS5ufU-k5ZFFVUu3MSm247pY_DVaq9Ef6m58');
+    background-size: cover;
+}
+.avatar{
+    z-index: 99;
+    border-radius: 20px;
+    position:relative;
+
+    height: 0px;
+}
+.info-left{
+    position: relative;
+    top: 90px;
+    left: 20px;
+    margin-left: 10px;
+}
+.left-bottom{
+    font-size: 15px;
+    font-family: AT_bold,sans-serif!important;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.left-top{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    border-radius: 20px;
+    min-height: 500px;
+    margin-top: 10px;
+}
+.user-info{
+    margin-left: 30px;
+}
+.user-info-column{
+    display: flex;
+    margin-top: -10px;
+}
+.user-info-column-1{
+    font-size: 15px;
+    font-family: AT_bold,sans-serif!important;
+    padding-right: 30px;
+}
+.user-info-column-2{
+    font-size: 15px;
+    font-family: AT_bold,sans-serif!important;
+    margin-right: 80px;
+}
+.user-info-column-3{
+    font-size: 15px;
+    font-family: AT_bold,sans-serif!important;
+}
+.right-button-click{
+    display: flex;
+    border-bottom-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+.right-button-click.is-active{
+    color: #c02135;
+}
+.left-button-click{
+    display: flex;
+    border-bottom-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+.left-button-click.is-active{
+    color: #c02135;
+}
+.active{
+    color: red;
+    border-bottom: none !important;
+}
+.left-button, .right-button{
+    border: 1px solid #ccc;
+    padding: 3px 20px;
+}
